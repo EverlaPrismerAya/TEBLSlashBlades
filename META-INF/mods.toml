@@ -1,6 +1,6 @@
 modLoader = 'lowcodefml'
 loaderVersion="[47,)"
-license="All Rights Reserved"
+license="MIT"
 [[mods]] #mandatory
 modId="tcpl"
 version="0.0.1"
