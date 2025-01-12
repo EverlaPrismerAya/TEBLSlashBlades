@@ -1,0 +1,49 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:evil_157",
+    "category": "equipment",
+    "key": {
+      "A": {
+        "item": "slashblade:proudsoul_crystal"
+      },
+      "B": {
+        "item": "slashblade:proudsoul_trapezohedron"
+      },
+      "D": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 6000,
+          "name": "tcpl:death_blade",
+          "refine": 66
+        }
+      },
+      "E": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 4444,
+          "name": "slashblade:sange",
+          "refine": 99
+        }
+      },
+      "F": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 4000,
+          "name": "tcpl:death_image",
+          "refine": 44
+        }
+      }
+    },
+    "pattern": [
+      "ABA",
+      "DEF",
+      "ABA"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}

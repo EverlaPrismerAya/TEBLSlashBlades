@@ -2,7 +2,7 @@
   "enchantments": [
     {
       "id": "minecraft:power",
-      "lvl": 10
+      "lvl": 7
     },
     {
       "id": "minecraft:looting",
@@ -17,18 +17,17 @@
       "lvl": 10
     }
   ],
-  "name": "tcpl:death_blade",
+  "name": "tcpl:daybreak",
   "properties": {
     "attack_base": 28.0,
     "max_damage": 180,
-    "slash_art": "slashblade:wave_edge",
     "sword_type": [
       "bewitched"
     ]
   },
   "render": {
-    "model": "slashblade:model/named/sange/sange.obj",
+    "model": "slashblade:model/named/muramasa/muramasa.obj",
     "summon_sword_color": 13504014,
-    "texture": "tcpl:model/named/sange/death_blade.png"
+    "texture": "tcpl:model/named/daybreak.png"
   }
 }

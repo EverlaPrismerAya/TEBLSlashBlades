@@ -19,8 +19,8 @@
   ],
   "name": "tcpl:death_image",
   "properties": {
-    "attack_base": 22.0,
-    "max_damage": 140,
+    "attack_base": 28.0,
+    "max_damage": 180,
     "slash_art": "slashblade:drive_horizontal",
     "sword_type": [
       "bewitched"

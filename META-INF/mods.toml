@@ -3,9 +3,9 @@ loaderVersion="[47,)"
 license="MIT"
 [[mods]] #mandatory
 modId="tcpl"
-version="0.0.1"
+version="0.0.2"
 displayName="T.E.B.L. Slashblades"
-authors="EverlaPrismerAya"
+authors="EverlaPrismerAya, SF2403"
 description='''Added some slashblade from the end battle line'''
 [[dependencies.tcpl]] #optional
    # the modid of the dependency
@@ -30,5 +30,17 @@ description='''Added some slashblade from the end battle line'''
    modId="slashblade_addon"
    mandatory=true
    versionRange="[1.1.6,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.tcpl]]
+   modId="mekanism"
+   mandatory=false
+   versionRange="[10.4.11,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.tcpl]]
+   modId="srelic"
+   mandatory=false
+   versionRange="[2.1,)"
    ordering="NONE"
    side="BOTH"

@@ -1,6 +1,11 @@
 {
   "item.tcpl.death_blade": "§6纲加特尔§4「死神之刃」§r",
   "item.tcpl.death_image": "§b伊芙利特§4「死亡镜像」§r",
-  "item.tcpl.evil_157": "§4§lNO.157「罪恶导航者」§r"
+  "item.tcpl.evil_157": "§4§lNO.157「罪恶导航者」§r",
+  "item.tcpl.daybreak": "§a破晓黎明§4「T.C.P.L」§r",
+  "item.tcpl.nameless_calamity":"§4§l无名刀「血光」§r",
+  "item.tcpl.cataclysm_reincarnation":"§9浩劫轮回§6「启」§r",
+  "item.tcpl.savage_ix":"§4§lSavage-IX『村正·暗』§r",
+  "item.tcpl.judgement_death":"§6决裁死神§4「T.C.P.L」§r"
 
 }
