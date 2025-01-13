@@ -1,0 +1,49 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:cataclysm_reincarnation",
+    "category": "equipment",
+    "key": {
+      "R": {
+        "item": "slashblade:proudsoul_trapezohedron"
+      },
+      "I": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "E": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 3000,
+          "name": "slashblade_addon:moonlight_cherry",
+          "refine": 10
+        }
+      },
+      "B": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 1500,
+          "name": "slashblade:fox_black",
+          "refine": 20
+        }
+      },
+      "W": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 1500,
+          "name": "slashblade:fox_white",
+          "refine": 20
+        }
+      }
+    },
+    "pattern": [
+      "BIR",
+      "IEI",
+      "RIW"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}

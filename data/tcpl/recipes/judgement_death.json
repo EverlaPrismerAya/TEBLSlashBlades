@@ -1,0 +1,52 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:judgement_death",
+    "category": "equipment",
+    "key": {
+        "D": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "C": {
+          "type": "slashblade:blade",
+          "item": "slashblade:slashblade",
+          "request": {
+            "kill": 4000,
+            "name": "slashblade:yamato",
+            "refine": 20
+          }
+        },
+        "A": {
+          "item": "slashblade:proudsoul_crystal"
+        },
+        "E": {
+          "type": "slashblade:blade",
+          "item": "slashblade:slashblade",
+          "request": {
+            "kill": 2000,
+            "name": "srelic:blade",
+            "refine": 20
+          }
+        },
+        "F": {
+          "type": "slashblade:blade",
+          "item": "slashblade:slashblade",
+          "request": {
+            "kill": 1500,
+            "name": "slashblade:yuzukitukumo",
+            "refine": 20
+          }
+        },
+        "G": {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+    },
+    "pattern": [
+      "ADC",
+      "DED",
+      "FDG"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}
