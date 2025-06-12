@@ -19,9 +19,9 @@
   ],
   "name": "tcpl:evil_157",
   "properties": {
-    "attack_base": 36.0,
+    "attack_base": 33.0,
     "max_damage": 240,
-    "slash_art": "slashblade_addon:spiral_edge",
+    "slash_art": "slashblade:wave_edge",
     "sword_type": [
       "bewitched"
     ]
