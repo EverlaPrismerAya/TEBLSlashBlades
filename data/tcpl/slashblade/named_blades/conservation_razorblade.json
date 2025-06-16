@@ -1,0 +1,33 @@
+{
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    }
+  ],
+  "name": "tcpl:conservation_razorblade",
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 180,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "model": "slashblade_addon:model/blademaster/blademaster.obj",
+    "summon_sword_color": 16711680,
+    "texture": "tcpl:model/named/conservation_razorblade.png"
+  }
+}

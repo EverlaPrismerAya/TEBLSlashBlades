@@ -1,0 +1,49 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:conservation_razorblade",
+    "category": "equipment",
+    "key": {
+      "R": {
+        "item": "slashblade:proudsoul_trapezohedron"
+      },
+      "I": {
+        "item": "slashblade:proudsoul_ingot"
+      },
+      "E": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 3000,
+          "name": "slashblade_addon:moonlight_cherry",
+          "refine": 10
+        }
+      },
+      "B": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 1500,
+          "name": "slashblade_addon:nihilbx",
+          "refine": 20
+        }
+      },
+      "W": {
+        "type": "slashblade:blade",
+        "item": "slashblade:slashblade",
+        "request": {
+          "kill": 1500,
+          "name": "slashblade_addon:kamuy_water",
+          "refine": 20
+        }
+      }
+    },
+    "pattern": [
+      "BIR",
+      "IEI",
+      "RIW"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}

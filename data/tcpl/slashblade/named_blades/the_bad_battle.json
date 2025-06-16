@@ -1,0 +1,34 @@
+{
+  "name": "tcpl:the_bad_battle",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    }
+  ],
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 180,
+    "slash_art": "slashblade:circle_slash",
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "summon_sword_color": 16777215,
+    "texture": "slashblade:model/rodai_iron.png"
+  }
+}

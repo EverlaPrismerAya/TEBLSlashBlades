@@ -1,0 +1,33 @@
+{
+  "name": "tcpl:dimensional_cut_storm",
+  "enchantments": [
+    {
+      "id": "minecraft:power",
+      "lvl": 7
+    },
+    {
+      "id": "minecraft:looting",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:fire_aspect",
+      "lvl": 3
+    },
+    {
+      "id": "minecraft:unbreaking",
+      "lvl": 10
+    }
+  ],
+  "properties": {
+    "attack_base": 24.0,
+    "max_damage": 180,
+    "sword_type": [
+      "bewitched"
+    ]
+  },
+  "render": {
+    "carry_type": "default",
+    "summon_sword_color": 16773632,
+    "texture": "slashblade:model/rodai_golden.png"
+  }
+}
