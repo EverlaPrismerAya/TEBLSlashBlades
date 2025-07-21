@@ -1,0 +1,34 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:daybreak_celestial",
+    "category": "equipment",
+    "key": {
+        "D": {
+          "item": "mekanism:alloy_atomic"
+        },
+        "A": {
+          "item": "slashblade:proudsoul_crystal"
+        },
+        "E": {
+          "type": "slashblade:blade",
+          "item": "slashblade:slashblade",
+          "request": {
+            "kill": 4000,
+            "name": "tcpl:daybreak",
+            "refine": 20
+          }
+        },
+        "G": {
+          "item": "mekanism:ultimate_control_circuit"
+        }
+    },
+    "pattern": [
+      "ADG",
+      "DED",
+      "GDA"
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}
