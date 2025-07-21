@@ -1,0 +1,11 @@
+{
+  "name": "tcpl:the_grinder",
+  "properties": {
+    "attack_base": 5.0,
+    "max_damage": 64
+  },
+  "render": {
+    "carry_type": "default",
+    "texture": "tcpl:model/named/the_grinder.png"
+  }
+}

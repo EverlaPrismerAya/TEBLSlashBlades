@@ -1,0 +1,22 @@
+{
+    "type": "slashblade:shaped_blade",
+    "blade": "tcpl:the_grinder",
+    "category": "equipment",
+    "key": {
+      "I": {
+        "item": "minecraft:iron_ingot"
+      },
+      "S": {
+        "item": "minecraft:stone_sword"
+      }
+    },
+    "pattern": [
+      "  I",
+      " I ",
+      "S  "
+    ],
+    "result": {
+      "item": "slashblade:slashblade"
+    },
+    "show_notification": true
+}

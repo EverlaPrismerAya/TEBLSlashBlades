@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="MIT"
 [[mods]] #mandatory
 modId="tcpl"
-version="0.2.0"
+version="0.2.1"
 displayName="T.E.B.L. Slashblades"
 authors="EverlaPrismerAya, SF2403"
 description='''Added some slashblade from the end battle line'''
@@ -35,7 +35,7 @@ description='''Added some slashblade from the end battle line'''
 [[dependencies.tcpl]]
    modId="mekanism"
    mandatory=false
-   versionRange="[10.4.11,)"
+   versionRange="[10.4,)"
    ordering="NONE"
    side="BOTH"
 [[dependencies.tcpl]]
