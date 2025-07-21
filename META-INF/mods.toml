@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="MIT"
 [[mods]] #mandatory
 modId="tcpl"
-version="0.2.1"
+version="0.2.2"
 displayName="T.E.B.L. Slashblades"
 authors="EverlaPrismerAya, SF2403"
 description='''Added some slashblade from the end battle line'''
