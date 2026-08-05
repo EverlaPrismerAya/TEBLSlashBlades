@@ -1,46 +1,45 @@
-modLoader = 'lowcodefml'
+modLoader = "javafml"
 loaderVersion="[47,)"
 license="MIT"
 [[mods]] #mandatory
 modId="tcpl"
-version="0.2.2"
+version="1.0.0"
 displayName="T.E.B.L. Slashblades"
 authors="EverlaPrismerAya, SF2403"
 description='''Added some slashblade from the end battle line'''
-[[dependencies.tcpl]] #optional
-   # the modid of the dependency
-   modId="forge"
-   mandatory=true #mandatory
-   versionRange="[47,)" #mandatory
-   ordering="NONE"
-   side="BOTH"# Here's another dependency
 [[dependencies.tcpl]]
    modId="minecraft"
    mandatory=true
    versionRange="[1.20.1,1.21)"
    ordering="NONE"
    side="BOTH"
-[[dependencies.tcpl]]
+[[dependencies.tcpl]] # SlashBlade Resharped (fixed/required)
    modId="slashblade"
    mandatory=true
    versionRange="[1.1.5,)"
    ordering="NONE"
    side="BOTH"
-[[dependencies.tcpl]]
+[[dependencies.tcpl]] # SlashBlade Japanese Addon Pack Reshaped (fixed/required)
    modId="slashblade_addon"
    mandatory=true
    versionRange="[1.1.6,)"
    ordering="NONE"
    side="BOTH"
-[[dependencies.tcpl]]
+[[dependencies.tcpl]] # Mekanism family (optional)
    modId="mekanism"
    mandatory=false
    versionRange="[10.4,)"
    ordering="NONE"
    side="BOTH"
 [[dependencies.tcpl]]
-   modId="srelic"
+   modId="mekanismtools"
    mandatory=false
-   versionRange="[2.1,)"
+   versionRange="[10.4,)"
+   ordering="NONE"
+   side="BOTH"
+[[dependencies.tcpl]]
+   modId="mekanismgenerators"
+   mandatory=false
+   versionRange="[10.4,)"
    ordering="NONE"
    side="BOTH"

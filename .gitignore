@@ -1,0 +1,18 @@
+# Gradle
+.gradle/
+build/
+
+# Forge dev run folders
+run/
+run-data/
+out/
+logs/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+.settings/
+.classpath
+.project
+bin/

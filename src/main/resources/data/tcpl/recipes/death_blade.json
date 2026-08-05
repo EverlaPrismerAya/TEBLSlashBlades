@@ -1,6 +1,6 @@
 {
     "type": "slashblade:shaped_blade",
-    "blade": "tcpl:death_image",
+    "blade": "tcpl:death_blade",
     "category": "equipment",
     "key": {
         "D": {
@@ -10,8 +10,8 @@
           "type": "slashblade:blade",
           "item": "slashblade:slashblade",
           "request": {
-            "kill": 4444,
-            "name": "slashblade:muramasa",
+            "kill": 6666,
+            "name": "slashblade_addon:nihilex",
             "refine": 20
           }
         },
@@ -19,13 +19,7 @@
           "item": "slashblade:proudsoul_crystal"
         },
         "E": {
-          "type": "slashblade:blade",
-          "item": "slashblade:slashblade",
-          "request": {
-            "kill": 3000,
-            "name": "srelic:blade",
-            "refine": 20
-          }
+          "item": "mekanismtools:refined_obsidian_sword"
         },
         "F": {
           "type": "slashblade:blade",
