@@ -23,3 +23,8 @@ run
 
 # Files from Forge MDK
 forge*changelog.txt
+/libs/Mekanism-1.20.1-10.4.16.80.jar
+/libs/MekanismGenerators-1.20.1-10.4.16.80.jar
+/libs/MekanismTools-1.20.1-10.4.16.80.jar
+/libs/SJAP_Resharpened-1.20.1-1.2.16.jar
+/libs/SlashBladeResharped-1.20.1-1.9.65.jar

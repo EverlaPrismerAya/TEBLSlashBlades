@@ -74,6 +74,11 @@ minecraft {
             // Please read: https://stackoverflow.com/questions/2031163/when-to-use-the-different-log-levels
             property 'forge.logging.console.level', 'debug'
 
+            // 依赖模组（如 SlashBladeResharped）的 mixin refmap 在 deobf 后仍是 SRG 名，
+            // 需在开发环境运行时用 srg->official 映射重映射 refmap，否则 mixin 注入会找不到目标而崩溃。
+            property 'mixin.env.remapRefMap', 'true'
+            property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+
             mods {
                 "${mod_id}" {
                     source sourceSets.main
@@ -117,9 +122,9 @@ repositories {
 
     // If you have mod jar dependencies in ./libs, you can declare them as a repository like so.
     // See https://docs.gradle.org/current/userguide/declaring_repositories.html#sub:flat_dir_resolver
-    // flatDir {
-    //     dir 'libs'
-    // }
+    flatDir {
+        dir 'libs'
+    }
 }
 
 dependencies {
@@ -140,6 +145,21 @@ dependencies {
     // This maps to ./libs/coolmod-${mc_version}-${coolmod_version}.jar
     // The group id is ignored when searching -- in this case, it is "blank"
     // implementation fg.deobf("blank:coolmod-${mc_version}:${coolmod_version}")
+
+    // 自动把 ./libs 下的所有 mod jar 添加为依赖（经 fg.deobf 重映射到开发映射）。
+    // flatDir 按 `name-version.jar` 匹配文件，因此这里从文件名最后一个 `-` 拆出 name 和 version。
+    // 以后新增模组只需把 jar 放进 libs/ 目录，无需再手动改 build.gradle。
+    fileTree(dir: 'libs', include: '*.jar').each { jarFile ->
+        def baseName = jarFile.name.replaceAll(/\.[^.]+$/, '') // 去掉 .jar 后缀
+        def dash = baseName.lastIndexOf('-')
+        if (dash < 0) {
+            throw new GradleException("libs 下的 jar 文件名需要包含版本号（形如 <name>-<version>.jar）：${jarFile.name}")
+        }
+        def libName = baseName.substring(0, dash)
+        def libVersion = baseName.substring(dash + 1)
+        implementation fg.deobf("blank:${libName}:${libVersion}")
+    }
+
 
     // For more info:
     // http://www.gradle.org/docs/current/userguide/artifact_dependencies_tutorial.html
