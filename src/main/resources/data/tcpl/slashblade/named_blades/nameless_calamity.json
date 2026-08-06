@@ -21,7 +21,7 @@
   "properties": {
     "attack_base": 24.0,
     "max_damage": 180,
-    "slash_art": "slashblade_addon:gale_swords",
+    "slash_art": "slashblade_addon:rapid_blistering_swords",
     "sword_type": [
       "bewitched"
     ]
